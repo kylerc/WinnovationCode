@@ -26,8 +26,8 @@ public class Constants {
     // sensors
     public static final int LeftDriveEncoderAlphaCh = 0;
     public static final int LeftDriveEncoderBetaCh = 0;
-    public static final int RightDriveEncoderAlphaCh = 0;
-    public static final int RightDriveEncoderBetaCh = 0;
+    public static final int RightDriveEncoderAlphaCh = 0; // Not needed?
+    public static final int RightDriveEncoderBetaCh = 0; // Not needed?
     public static final int GyroSlot = 0;
     public static final int GyroCh = 0;
 
@@ -61,7 +61,8 @@ public class Constants {
 
     // dimensions
     public static double WheelBaseRadius = 26.0/12.0;
-    public static double WheelRadius = 4.0;
+    public static double WheelRadius = 2.0;
+    public static double WheelRadiusLobster = 0.0;
 
     // encoders
     public static double EncoderTicksPerRev = 360;
